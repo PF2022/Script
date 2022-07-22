@@ -5,8 +5,8 @@
 QuantumultX:
 
 [rewrite_local]
-^https:\/\/(xy-viva\.kakalili|api-chn.rthdo)\.com\/api\/rest\/u\/vipVerifyReceipt url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/vivavideo.js
-
+^https:\/\/(xy-viva\.kakalili|api-chn.rthdo)\.com\/api\/rest\/u\/vipVerifyReceipt url script-response-body 
+https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/vivavideo.js
 [mitm]
 hostname = xy-viva.kakalili.com, api-chn.rthdo.com
 
